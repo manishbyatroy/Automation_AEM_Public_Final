@@ -1,6 +1,7 @@
+Functions achieve what is defined as the name of the function.
 ```
 javascript:(
-    function publishToPreview() {
+    function publishToPreviewSelectorBox() {
         let classes = document.getElementsByClassName('js-editor-PageInfo-closePopover js-editor-WorkflowStart-activator coral3-Button coral3-Button--secondary');
         let Rate = classes[0];
         Rate.click();
